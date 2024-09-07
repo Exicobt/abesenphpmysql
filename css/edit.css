@@ -1,0 +1,52 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #024849;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+
+.edit {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	position: relative;
+	background-color: #006D6F;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 250px;
+	width: 200px;
+	padding: 20px 50px;
+	box-shadow: 2px 2px 50px #000;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+form input {
+    height: 30px;
+    background-color: #024849;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
+form button {
+	height: 35px;
+	width: 100%;
+	background-color: #9dffea;
+	border: none;
+}
